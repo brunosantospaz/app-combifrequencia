@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Source+Sans+Pro:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    
+}
+.body {
+    background: white;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+}
+.cabecalho-logo {
+    padding: 5px;
+    
+}
+.cabecalho-container-opcoes  {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    padding-right: 20px;
+}
+button{
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+    font-size: 13px;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding:5%;
+    
+}
+.main-content-img-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main-content-img-txt2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}.main-content-img-txt3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main-button {
+    display: flex;
+    align-items: center;
+    
+}
+
